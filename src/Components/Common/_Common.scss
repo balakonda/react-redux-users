@@ -1,0 +1,5 @@
+.myModal {
+    @include full-screen;
+    z-index: 11;
+    background-color: #00000033;
+}

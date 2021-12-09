@@ -1,0 +1,22 @@
+@mixin full-screen {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@mixin flex-wrap-around($gap: 10px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: $gap;
+}
+  
+@mixin item-header-colors {
+    font-size: $font-size-large;
+    color: $color-white;
+    background-color: $list-bg-base;
+}

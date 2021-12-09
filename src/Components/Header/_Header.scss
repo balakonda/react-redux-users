@@ -1,0 +1,10 @@
+.pageHeader, main {
+    padding: 15px;
+  }
+  .pageHeader > * {
+    display: inline-block;
+  }
+  nav a {
+    margin: 0 10px;
+    text-decoration: none;
+  }
